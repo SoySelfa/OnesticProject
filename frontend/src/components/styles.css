@@ -1,0 +1,96 @@
+.poke-card-title {
+  text-transform: capitalize;
+}
+.poke-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.poke-card-footer {
+  height: 140px;
+}
+.poke-card-center {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  padding-left: 0px;
+}
+
+.poke-card-center-types {
+  gap: 5px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.poke-card-center-buttons {
+  gap: 10px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.img-type {
+  width: 16px;
+}
+
+.table-row {
+  vertical-align: middle;
+  width: 100%;
+}
+.table-container {
+  padding: 0% 4%;
+}
+.table {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.modal-body .modal-body-dark {
+  padding: 15px 3rem;
+}
+.modal-body-dark .modal-header-dark .selector-dark {
+  background-color: #171718;
+}
+
+.modal-title h5 {
+  color: grey;
+  margin-left: 5px;
+}
+.modal-center {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 5px;
+}
+
+.modal-center-types {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.modal-center-carousel {
+  width: 250px;
+}
+.button-fav {
+  background-color: transparent;
+  border: none;
+}
+.button-fav-img {
+  width: 2rem;
+}
+.switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.switch-favs-img {
+  display: flex;
+  width: 2rem;
+}
+
+.selector-dark {
+  background-color: #171718;
+}

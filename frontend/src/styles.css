@@ -1,0 +1,43 @@
+.grid-flex-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.pagination {
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+}
+
+.table-row {
+  vertical-align: middle;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  padding: 0% 4%;
+  gap: 5px;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+}
+.main-dark {
+  background-color: #171718;
+  height: 100%;
+  min-height: 100vh;
+}
